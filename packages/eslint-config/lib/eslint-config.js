@@ -3,14 +3,8 @@ module.exports = {
     node: true,
     browser: true,
   },
-  globals: {
-    use: true,
-  },
-  extends: [
-    'plugin:vue/recommended',
-    'airbnb-base',
-  ],
-  ignorePatterns: ['!.eslintrc.js', 'dist'],
+  extends: ['airbnb'],
+  ignorePatterns: ['!.eslintrc.js'],
   rules: {
     semi: ['error', 'never'],
     'no-console': 'off',
