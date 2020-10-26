@@ -1,0 +1,14 @@
+{
+  "packages": [
+    "packages/*"
+  ],
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "version": "independent",
+  "conventionalCommits": true,
+  "changelog": false,
+  "private": false,
+  "changelogPreset": "conventionalcommits",
+  "message": "chore(release): publish",
+  "allowBranch": ["main"]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "@droplt/eslint-config",
+  "version": "1.0.0",
+  "description": "@droplt eslint shareable configuration",
+  "homepage": "https://github.com/droplt/packages#readme",
+  "bugs": {
+    "url": "https://github.com/droplt/packages/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/droplt/packages.git"
+  },
+  "license": "MIT",
+  "author": "François Lefebvre <francois.lfe@gmail.com>",
+  "main": "lib/eslint-config.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-vue": "^7.1.0"
+  },
+  "peerDependencies": {
+    "eslint": ">= 7.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

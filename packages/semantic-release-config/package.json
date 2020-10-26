@@ -1,0 +1,41 @@
+{
+  "name": "@droplt/semantic-release-config",
+  "version": "1.0.0",
+  "description": "@droplt semantic-release shareable configuration",
+  "homepage": "https://github.com/droplt/packages#readme",
+  "bugs": {
+    "url": "https://github.com/droplt/packages/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/droplt/packages.git"
+  },
+  "license": "MIT",
+  "author": "François Lefebvre <francois.lfe@gmail.com>",
+  "main": "lib/semantic-release-config.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/commit-analyzer": "^8.0.1",
+    "@semantic-release/exec": "^5.0.0",
+    "@semantic-release/github": "^7.1.1",
+    "@semantic-release/npm": "^7.0.6",
+    "@semantic-release/release-notes-generator": "^9.0.1",
+    "conventional-changelog-conventionalcommits": "^4.4.0"
+  },
+  "devDependencies": {
+    "semantic-release": "^17.2.1"
+  },
+  "peerDependencies": {
+    "semantic-release": ">=16.0.0 <18.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "6750981123a03d5c363b5ce569afe35bb449081f"
+}

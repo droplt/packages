@@ -1,0 +1,31 @@
+{
+  "name": "@droplt/commitlint-config",
+  "version": "1.0.0",
+  "description": "@droplt commitlint shareable configuration",
+  "homepage": "https://github.com/droplt/packages#readme",
+  "bugs": {
+    "url": "https://github.com/droplt/packages/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/droplt/packages.git"
+  },
+  "license": "MIT",
+  "author": "François Lefebvre <francois.lfe@gmail.com>",
+  "main": "lib/commitlint-config.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "@commitlint/config-conventional": "^11.0.0"
+  },
+  "peerDependencies": {
+    "@commitlint/cli": "^11.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
