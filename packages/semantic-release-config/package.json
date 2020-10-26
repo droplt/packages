@@ -1,6 +1,6 @@
 {
   "name": "@droplt/semantic-release-config",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "@droplt semantic-release shareable configuration",
   "homepage": "https://github.com/droplt/packages#readme",
   "bugs": {
