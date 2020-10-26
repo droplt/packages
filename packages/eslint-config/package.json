@@ -1,6 +1,6 @@
 {
   "name": "@droplt/eslint-config",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "@droplt eslint shareable configuration",
   "homepage": "https://github.com/droplt/packages#readme",
   "bugs": {
