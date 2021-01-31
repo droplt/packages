@@ -1,6 +1,6 @@
 {
   "name": "@droplt/providers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Droplt AdonisJS providers",
   "homepage": "https://github.com/droplt/packages#readme",
   "bugs": {
