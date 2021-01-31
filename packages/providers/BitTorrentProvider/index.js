@@ -1,5 +1,5 @@
 const { ServiceProvider } = require('@adonisjs/fold')
-const BitTorrentManager = require('./providers/BitTorrent')
+const BitTorrentManager = require('./manager')
 
 class BitTorrentProvider extends ServiceProvider {
   register() {

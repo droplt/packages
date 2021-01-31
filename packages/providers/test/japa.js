@@ -1,5 +1,5 @@
 const { configure } = require('japa')
 
 configure({
-  files: ['test/*.spec.js'],
+  files: ['BitTorrentProvider/test/*.spec.js'],
 })
