@@ -1,0 +1,9 @@
+{
+  "all": true,
+  "include": [
+    "providers/**"
+  ],
+  "reporter": ["text-summary", "lcov"],
+  "report-dir": "coverage",
+  "temp-dir": "coverage/tmp"
+}
