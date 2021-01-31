@@ -1,7 +1,7 @@
 {
   "all": true,
   "include": [
-    "BitTorrentProvider/**"
+    "src/*"
   ],
   "reporter": ["text-summary", "lcov"],
   "report-dir": "coverage",

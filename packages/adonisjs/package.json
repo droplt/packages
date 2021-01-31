@@ -1,7 +1,7 @@
 {
-  "name": "@droplt/providers",
-  "version": "1.0.2",
-  "description": "Droplt AdonisJS providers",
+  "name": "@droplt/adonisjs",
+  "version": "0.0.1",
+  "description": "Droplt AdonisJS",
   "homepage": "https://github.com/droplt/packages#readme",
   "bugs": {
     "url": "https://github.com/droplt/packages/issues"
@@ -14,7 +14,8 @@
   "author": "François Lefebvre <francois.lfe@gmail.com>",
   "main": "index.js",
   "files": [
-    "BitTorrentProvider"
+    "src",
+    "providers"
   ],
   "scripts": {
     "test": "nyc node test/japa"
