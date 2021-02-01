@@ -1,3 +1,14 @@
+const STATUS = [
+  'STOPPED',
+  'CHECK_WAIT',
+  'CHECK',
+  'DOWNLOAD_WAIT',
+  'DOWNLOAD',
+  'SEED_WAIT',
+  'SEED',
+  'ISOLATED',
+]
+
 const PROPS = [
   'id',
   'hashString',
@@ -17,5 +28,6 @@ const PROPS = [
 ]
 
 module.exports = {
+  STATUS,
   PROPS,
 }

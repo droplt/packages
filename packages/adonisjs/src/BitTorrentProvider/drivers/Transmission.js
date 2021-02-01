@@ -1,5 +1,5 @@
 const TransmissionPromise = require('transmission-promise')
-const { PROPS } = require('../helpers/constants')
+// const { PROPS } = require('../helpers/constants')
 
 class Transmission {
   constructor({
@@ -14,12 +14,12 @@ class Transmission {
   }
 
   async all() {
-    const { torrents } = await this.client.get(false, PROPS)
+    const { torrents } = await this.client.get(false)
     return torrents
   }
 
   async get(id) {
-    const torrent = await this.client.get(id, PROPS)
+    const torrent = await this.client.get(id)
     return torrent
   }
 
