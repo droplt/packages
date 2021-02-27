@@ -18,8 +18,8 @@
     "providers"
   ],
   "scripts": {
-    "test": "nyc node test/japa",
-    "test:watch": "nodemon -x node test/japa"
+    "test": "nyc node __tests__/japa",
+    "test:watch": "nodemon -x node __tests__/japa"
   },
   "dependencies": {
     "@poppinss/manager": "^3.0.8",
